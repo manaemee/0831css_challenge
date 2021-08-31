@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgba(0,0,0,0.3); green, blue, alpha);
+}
+body {
+
+ background-color: #F1F1F1;
+ max-width: 770px;
+ width: 100%;
+ margin:0 auto;
+}
+
+
+.title__column:first-child {
+  font-family: "Oswald", sans-serif;
+  font-size: 80px;
+}
+.title__column:last-child {
+  font-size: 50px;
+  font-weight: 700;
+}
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.subtitle__column{
+    display: flex;
+}
+https://ConsiderateAliceblueWatchdog-1.manaemee.repl.co
+
+h3{
+    font-size: 10px;
+    margin: 0px;
+}
+.circles{
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    
+}
+.circle__sky{
+    background-color: skyblue;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-bottom: 35px;
+  
+    
+}
+.circle__grey{
+    background-color: gray;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-bottom: 35px;
+  
+    
+}
+.circle__green{
+    background-color: green;
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-bottom: 35px;
+    
+}
